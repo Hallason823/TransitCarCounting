@@ -1,6 +1,21 @@
 # Transit Car Counting
+# Transit Car Counting
 
-Research project for classifying the number of cars present in transit/traffic images using transfer learning. Given an image, the model predicts the exact car count (0, 1, 2, … , N).
+Research project for classifying traffic state on a scale model intersection using transfer learning. A top-down camera captures the model, and the classifier predicts the occupancy class based on the number of cars visible on the **right** and **bottom** road lanes.
+
+## Class Mapping
+
+| Class | Right lane | Bottom lane |
+|-------|------------|-------------|
+| 0     | 0          | 0           |
+| 1     | 1          | 0           |
+| 2     | 0          | 1           |
+| 3     | 1          | 1           |
+| 4     | 2          | 0           |
+| 5     | 0          | 2           |
+| 6     | 2          | 1           |
+| 7     | 1          | 2           |
+| 8     | 2          | 2           |
 
 ## Repository Structure
 
