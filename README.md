@@ -1,5 +1,4 @@
 # Transit Car Counting
-# Transit Car Counting
 
 Research project for classifying traffic state on a scale model intersection using transfer learning. A top-down camera captures the model, and the classifier predicts the occupancy class based on the number of cars visible on the **right** and **bottom** road lanes.
 
@@ -34,13 +33,6 @@ TransitCarCounting/
 ├── README.md
 └── requirements.txt
 ```
-
-### `/images` — Dataset
-
-Place your dataset here. Two layouts are supported:
-
-- **Subfolders by count**: `images/0/`, `images/1/`, `images/3/`, …
-- **CSV annotations**: `images/annotations.csv` with columns `path` and `count`
 
 ### `/src` — Source Code
 
